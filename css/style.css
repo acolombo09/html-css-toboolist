@@ -12,11 +12,23 @@ body{
 header{
     background-color: white;
     height: 90px;
+    line-height: 90px;
+}
+
+img{
+    vertical-align: middle;
+    margin-left: 25px;
+}
+
+hr{
+    height: 1px;
+    background-color: #b2b5b7;
+    border: 0 none;
 }
 
 main{
     background-color: white;
-    height: 570px;
+    height: 630px;
     width: 60%;
     margin: auto;
     margin-top: 50px;
@@ -25,19 +37,30 @@ main{
 
 h1{
     display: inline-block;
+    vertical-align: middle;
+    font-size: 42px;
 }
 h3{
     display: inline-block;
 }
 
 .list{
-    margin-top: 30px;
+    margin-top: 20px;
     color: rgb(73, 72, 72);
 }
 
 .check{
     color: rgb(100, 192, 169);
     border: 1px solid rgb(100, 192, 169);
+    font-size: small;
+    padding: 3px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.cross{
+    color: red;
+    border: 1px solid red;
     font-size: small;
     padding: 3px;
     border-radius: 50%;
@@ -51,6 +74,79 @@ h3{
     padding: 8px;
     margin: 6px 2px 6px;
     border-radius: 12px;
+}
+
+.q1-goals{
+    color: white;
+    background-color: rgb(156, 114, 228);
+    font-size: 10px;
+    padding: 8px;
+    margin: 6px 2px 6px;
+    border-radius: 12px;
+}
+
+.recruiting{
+    color: white;
+    background-color: rgb(100, 192, 169);
+    font-size: 10px;
+    padding: 8px;
+    margin: 6px 2px 6px;
+    border-radius: 12px;
+}
+
+.mobile{
+    color: white;
+    background-color: rgb(242, 158, 51);
+    font-size: 10px;
+    padding: 8px;
+    margin: 6px 2px 6px;
+    border-radius: 12px;
+}
+
+.website{
+    color: white;
+    background-color: rgb(216, 98, 161);
+    font-size: 10px;
+    padding: 8px;
+    margin: 6px 2px 6px;
+    border-radius: 12px;
+}
+
+.sales{
+    color: white;
+    background-color: rgb(174, 199, 35);
+    font-size: 10px;
+    padding: 8px;
+    margin: 6px 2px 6px;
+    border-radius: 12px;
+}
+
+.task-editorial{
+    padding: 10px;
+}
+
+.task-q1{
+    padding: 10px;
+}
+
+.task-recruiting{
+    padding: 10px;
+}
+
+.task-mobile{
+    padding: 10px;
+}
+
+.task-website{
+    padding: 10px;
+}
+
+.task-sales{
+    padding: 10px;
+}
+
+.task-noname{
+    padding: 10px;
 }
 
 #add-task{
@@ -70,8 +166,4 @@ h3{
     margin: 9px 3px 9px;
     border-radius: 5px;
     display: inline-block;
-}
-
-#task-editorial{
-    padding: 10px;
 }
